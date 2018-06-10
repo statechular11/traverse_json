@@ -1,6 +1,9 @@
 Traverse JSON
 ============
 
+|PyPI|
+|Build Status|
+
 A python library for accessing and searching JSON via
 /slashed/paths
 
@@ -9,6 +12,8 @@ When traversing a dictionary, a string key or or a regular expression
 pattern is used to traverse forward. When traversing a list, a string
 representation of slicing index is used to traverse forward.
 
+sdists are available on pypi: http://pypi.python.org/pypi/traverse_json
+
 Installing
 ==========
 
@@ -16,7 +21,7 @@ The best way to install jsonTraverse is via easy\_install or pip.
 
 ::
 
-    pip install git+https://github.com/statech/traverse_json
+    pip install traverse_json
 
 Using jsonTraverse
 ===================
