@@ -82,9 +82,9 @@ the approach we can use with `traverse_json` package.
     >>> ages = json_obj.traverse(path_to_age, named=False)
 
 
-A harder question is to find out the most popular programming language
-among programmers under 35 and above 35. Here is the approach we can
-use with `traverse_json` package.
+That was really easy. A harder question is to find out the most popular
+programming language among programmers under 35 and above 35. Here is the
+approach we can use with `traverse_json` package.
 
 .. code-block:: pycon
 
@@ -110,6 +110,7 @@ use with `traverse_json` package.
         ]
     >>> print(max(lang_under_35, key=lang_under_35.count))
     >>> print(max(lang_above_35, key=lang_above_35.count))
+
 
 Loading JSON
 ============
