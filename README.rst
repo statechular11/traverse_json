@@ -9,8 +9,6 @@ When traversing a dictionary, a string key or or a regular expression
 pattern is used to traverse forward. When traversing a list, a string
 representation of slicing index is used to traverse forward.
 
-Available on pypi: http://pypi.python.org/pypi/jsonTraverse
-
 Installing
 ==========
 
@@ -18,8 +16,7 @@ The best way to install jsonTraverse is via easy\_install or pip.
 
 ::
 
-    easy_install jsonTraverse
-    pip install jsonTraverse
+    pip install git+https://github.com/statech/traverse_json
 
 Using jsonTraverse
 ===================
