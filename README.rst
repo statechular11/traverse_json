@@ -129,3 +129,8 @@ are given below
     >>> import traverse_json
     >>> json_file = traverse_json.JsonTraverse(filepath=filepath)
     >>> json_url = traverse_json.JsonTraverse(url=url)
+
+
+Contact
+=======
+If you have any questions or encounter any bugs, please contact the author (Feiyang Niu, statech.forums@gmail.com)
