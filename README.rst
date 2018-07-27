@@ -28,7 +28,7 @@ Using jsonTraverse
 
 .. code-block:: python
 
-    import jsonTraverse
+    import traverse_json
 
 Separators
 ==========
